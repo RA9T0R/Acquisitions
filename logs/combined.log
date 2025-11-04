@@ -218,3 +218,6 @@
 {"level":"error","message":"Error deleting user 5: User not found","service":"acquisitions-api","stack":"Error: User not found\n    at getUserById (file:///E:/Coding/WEBSITE/acquisitions/src/services/users.service.js:40:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async deleteUser (file:///E:/Coding/WEBSITE/acquisitions/src/services/users.service.js:97:9)\n    at async deleteUserById (file:///E:/Coding/WEBSITE/acquisitions/src/controllers/users.controller.js:182:29)"}
 {"level":"error","message":"Error deleting user: User not found","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [04/Nov/2025:13:57:24 +0000] \"DELETE /api/users/5 HTTP/1.1\" 404 26 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Nov/2025:14:13:12 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Nov/2025:14:13:12 +0000] \"GET /api HTTP/1.1\" 200 53 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Nov/2025:14:13:12 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
